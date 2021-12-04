@@ -8,7 +8,7 @@ function calcHypo(){
     var A = Number(input[0].value);
     var B = Number(input[1].value);
     if(A<1 || B<1 ){
-        return result.innerText = "Negative values or 0 are not allowed"
+        return result.innerText = "0 or Negative integers are not allowed"
     }
     else{
 

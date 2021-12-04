@@ -9,8 +9,11 @@ function triangleResult(){
     var inp1 = Number(input[0].value);
     var inp2 = Number(input[1].value);
     var inp3 = Number(input[2].value);
-    if(inp1<1 || inp2<1 || inp3<1){
+    if((inp1<1 || inp2<1 || inp3<1) && (inp1 !="" || inp2 !="" || inp3 !="")){
         result.innerText = "Please enter positive numbers only"
+    }
+    else if(inp1 =="" || inp2 =="" || inp3 =="" ){
+        result.innerText = "Please enter value"
     }
     else{
     
